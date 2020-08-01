@@ -1,6 +1,6 @@
 @font-face { 
     font-family: Endora; 
-    src: url('/fonts/Endora.otf'); 
+    src: url('../fonts/Endora.otf'); 
 }
 
 html {
