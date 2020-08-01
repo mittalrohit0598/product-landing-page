@@ -16,13 +16,19 @@ body {
     font-family: Endora;
     background-image: url('../images/background-image.png');
     background-repeat: repeat;
+    padding-top: 120px;
 }
 
 header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
     display: flex;
     height: 120px;
+    background-color: #201E1F;
     border-bottom: 1px solid #E06526;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #header-img {
