@@ -1,19 +1,195 @@
+@font-face { 
+    font-family: Endora; 
+    src: url('/fonts/Endora.otf'); 
+}
+
 html {
     font-size: 10px;
 }
 
 body {
     background-color: #201E1F;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     color: #E06526;
+    text-align: center;
+    font-family: Endora;
 }
 
 header {
-    background-color: red;
-    height: 150px;
+    display: flex;
+    height: 120px;
+    border-bottom: 1px solid #E06526;
+    justify-content: space-between;
 }
 
 #header-img {
-    width: 10vw;
+    width: 130px;
+    margin: auto 10px;
+}
+
+#header div {
+    display: flex;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: auto 10px;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 20px auto 10px;
+}
+
+#nav-bar ul {
+    display: flex;
+    height: 120px;
+    align-items: flex-end;
+}
+
+li {
+    margin: auto 20px;
+}
+
+a {
+    color: #E06526;
+    text-decoration: none;
+}
+
+.nav-link {
+    font-size: 2rem;
+}
+
+#email {
+    background-color: inherit;
+    border: 1px solid #E06526;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    margin: 10px auto;
+}
+
+#submit {
+    border: 1px solid #201E1F;
+    background-color: #E06526;
+    color: #201E1F;
+    width: 15.45vw;
+    margin: 0px auto;
+    padding: 5px;
+    font-family: Endora;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+::placeholder {
+    color: #E06526;
+    font-family: Endora;
+}
+
+.features-divs {
+    text-align: left;
+    width: 61.82vw;
+    margin: 0px auto;
+}
+
+.features-divs h2 {
+    margin-top: 40px;
+}
+
+.features-divs p {
+    margin: -10px 0px;
+}
+
+iframe {
+    width: 420px;
+    height: 236px;
+    margin: 50px auto;
+}
+
+#pricing ul {
+    margin-top: -10px;
+}
+
+#pricing ul li {
+    margin: 10px auto;
+}
+
+#pricing {
+    display: flex;
+    margin: 0px auto;
+}
+
+#pricing div {
+    width: 25vw;
+    margin: 20px auto;
+    border: 1px solid #E06526;
+}
+
+h3 {
+    font-size: 2.5rem;
+    border-bottom: 1px solid #E06526;
+}
+
+#pricing button {
+    margin: 20px auto;
+    width: 7.72vw;
+    padding: 5px;
+    border: 1px solid #201E1F;
+    background-color: #E06526;
+    color: #201E1F;
+    font-family: Endora;
+}
+
+footer ul {
+    display: flex;
+    margin-top: 5px;
+}
+
+footer {
+    border-top: 1px solid #E06526;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+span {
+    margin: auto 20px;
+}
+
+@media (max-width: 950px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    #nav-bar ul li {
+        margin: auto 10px;
+    }
+
+    .nav-link {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 580px) {
+    #header-img {
+        width: 75px;
+    }
+}
+
+@media (min-width: 1100px) {
+    #pricing {
+        display: flex;
+        margin: 0px 150px;
+        margin: 0px 11.59vw;
+    }
+    
+    #pricing div {
+        width: 250px;
+        margin: 20px auto;
+    }
 }
