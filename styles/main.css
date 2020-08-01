@@ -134,6 +134,12 @@ h3 {
     border-bottom: 1px solid #E06526;
 }
 
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
 #pricing button {
     margin: 20px auto;
     width: 7.72vw;
