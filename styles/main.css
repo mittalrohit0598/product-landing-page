@@ -1,0 +1,19 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #201E1F;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    color: #E06526;
+}
+
+header {
+    background-color: red;
+    height: 150px;
+}
+
+#header-img {
+    width: 10vw;
+}
