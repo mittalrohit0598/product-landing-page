@@ -69,13 +69,14 @@ a {
     font-size: 2rem;
 }
 
-#email {
-    background-color: inherit;
+input {
+    background-color: #201E1F;
     border: 1px solid #E06526;
     text-align: center;
     padding: 10px;
     width: 300px;
     margin: 10px auto;
+    color: #E06526;
 }
 
 #submit {
@@ -145,12 +146,6 @@ iframe {
 h3 {
     font-size: 2.5rem;
     border-bottom: 1px solid #E06526;
-}
-
-input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
 }
 
 #pricing button {
