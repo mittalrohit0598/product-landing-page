@@ -93,6 +93,11 @@ form {
     flex-direction: column;
 }
 
+input {
+    color: #E06526;
+    font-family: Endora;
+}
+
 ::placeholder {
     color: #E06526;
     font-family: Endora;
