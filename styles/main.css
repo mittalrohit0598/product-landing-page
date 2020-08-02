@@ -104,6 +104,18 @@ button {
     font-family: Endora;
 }
 
+#pricing {
+    padding: 100px 0px;
+}
+
+#how-it-works {
+    padding: 100px 0px 0px 0px;
+}
+
+#features {
+    padding: 100px 0px 0px 0px;
+}
+
 .features-divs {
     text-align: left;
     width: 61.82vw;
@@ -121,7 +133,7 @@ button {
 iframe {
     width: 420px;
     height: 236px;
-    margin: 50px auto;
+    
 }
 
 #pricing ul {
@@ -134,11 +146,12 @@ iframe {
 
 #pricing {
     display: flex;
-    margin: 0px auto;
+    margin: 0px 11.59vw;
+    flex-wrap: wrap;
 }
 
 #pricing div {
-    width: 25vw;
+    width: 250px;
     margin: 20px auto;
     border: 1px solid #E06526;
 }
@@ -150,7 +163,7 @@ h3 {
 
 #pricing button {
     margin: 20px auto;
-    width: 7.72vw;
+    width: 100px;
     padding: 5px;
     border: 1px solid #201E1F;
     background-color: #E06526;
@@ -195,15 +208,3 @@ span {
     }
 }
 
-@media (min-width: 1100px) {
-    #pricing {
-        display: flex;
-        margin: 0px 150px;
-        margin: 0px 11.59vw;
-    }
-    
-    #pricing div {
-        width: 250px;
-        margin: 20px auto;
-    }
-}
