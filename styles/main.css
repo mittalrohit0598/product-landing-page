@@ -50,6 +50,11 @@ h2 {
     margin: 20px auto 10px;
 }
 
+ul p {
+    font-size: 3rem;
+    margin: 20px auto 10px;
+}
+
 #nav-bar ul {
     display: flex;
     height: 120px;
